@@ -3,7 +3,7 @@ var app=express();
 
 var PORT = 3000 || process.env.PORT;
 
-app.get('/articles', (req,res)=>
+app.get('/', (req,res)=>
 {
 
     res.json({'message' : 'world'});
