@@ -16,5 +16,11 @@
   "bugs": {
     "url": "https://github.com/Parinaaz/chipanddale/issues"
   },
-  "homepage": "https://github.com/Parinaaz/chipanddale#readme"
+  "homepage": "https://github.com/Parinaaz/chipanddale#readme",
+  "dependencies": {
+    "express": "^4.17.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
 }
