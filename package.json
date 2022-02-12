@@ -5,7 +5,8 @@
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index.js"
+    "start": "node index.js",
+    "devstart":"nodemon index.js"
   },
   "repository": {
     "type": "git",
@@ -18,6 +19,7 @@
   },
   "homepage": "https://github.com/Parinaaz/chipanddale#readme",
   "dependencies": {
+    "body-parser": "^1.19.1",
     "express": "^4.17.2"
   },
   "devDependencies": {
